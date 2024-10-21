@@ -1,5 +1,5 @@
-# Supply Cycle
-![Camino](https://github.com/user-attachments/assets/b8b262a5-4ffc-4e1a-b7a5-21cdcee6d31a)
+# TOGLOW
+![TOGLOW](https://github.com/user-attachments/assets/4cd4b83e-bad7-4e3a-95c5-3afda8abb201)
 
 <a name="readme-top"></a>
 
@@ -37,7 +37,7 @@ No olvidar subir el link del demo
 
 <br />
 
-**Supply Cycle** is a software that contains a comprehensive toolkit that guarantees transparency, trust, and traceability for supply chain operations focused on NGOs and companies.
+**TOGLOW** A professional contribution platform that allows women to showcase their achievements in a transparent and decentralized manner while receiving tokens for their contributions. It introduces the first tool aimed at shifting the paradigm in how we understand work, promoting equity and access to global opportunities, thus impacting the digital divide.
 
 ![5](https://github.com/user-attachments/assets/283376cb-ce27-484b-bc59-d437e1cb6dbb)
 
