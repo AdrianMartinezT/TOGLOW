@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Ya está optimizado para usar las últimas características de JS
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, 
+    "skipLibCheck": true, // Esto acelera la compilación al omitir la comprobación de las bibliotecas
+    "strict": true, // Mantiene la comprobación estricta de tipos
+    "noEmit": true, 
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler", 
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve", // Tailwind/Next.js pueden requerir JSX, es correcto mantenerlo así
+    "incremental": true, // Ya está activado, esto crea un caché incremental
+    "tsBuildInfoFile": "./.tsbuildinfo", // Agrega un archivo de caché para TypeScript
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "types": ["node", "jest", "react"], // Incluye solo los tipos necesarios para reducir el scope
+    "forceConsistentCasingInFileNames": true, // Esto previene problemas con el nombre de archivos entre sistemas operativos
+    "skipDefaultLibCheck": true, // Agrega esta opción para que no verifique la lib predeterminada
+    "strictNullChecks": false // Desactiva esto si quieres menos verificación de nulls, aunque es opcional
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

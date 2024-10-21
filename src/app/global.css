@@ -1,0 +1,81 @@
+/* stylelint-disable custom-property-pattern */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Palette */
+  --palette-bg-black: #fff;
+  --palette-bg-white: rgb(21, 26, 38);
+
+  /* Operating system dark color scheme */
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Asegura que siempre use 100% de la pantalla */
+  scroll-behavior: smooth;
+}
+
+html .font-robotoMono {
+  font-family: var(--font-roboto-mono);
+}
+
+html .font-inter {
+  font-family: var(--font-inter);
+}
+
+body {
+  margin: 0;
+  background-color: var(--palette-bg-black);
+  color: var(--palette-bg-white);
+  font-family: Inter, sans-serif;
+  overflow-x: visible; /* Permite que los elementos se expandan */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+svg {
+  display: block;
+  overflow: visible;
+  vertical-align: middle;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+/* Asegurarse de que el contenedor ocupe todo el ancho de la pantalla */
+#__next {
+  min-height: 100%; /* Cambiado a min-height para asegurar la altura completa */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+
+.ockConnectWallet_Container span {
+  color: #030712;
+}
+
+/* Se eliminó el max-width para permitir que los elementos se expandan */
+body > div {
+  height: auto; /* Asegúrate de que los elementos internos crezcan correctamente */
+  box-sizing: border-box;
+}
+
+/* Otros estilos */
+a {
+  text-decoration: none;
+}
+
+.templateSection > div {
+  max-width: 100%; /* Asegura que los elementos no se limiten por el ancho */
+}
