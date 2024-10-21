@@ -1,66 +1,119 @@
+# Supply Cycle
+![Camino](https://github.com/user-attachments/assets/b8b262a5-4ffc-4e1a-b7a5-21cdcee6d31a)
 
-<p align="cent![WhatsApp Image 2024-10-20 at 11 51 41 PM](https://github.com/user-attachments/assets/01b35458-9251-4b91-852d-e92f5fc747d3)
-er">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png">
-    <img alt="OnchainKit logo vibes" src="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png" width="auto">
-  </picture>
-</p>
+<a name="readme-top"></a>
 
-# Onchain App Template
+<div align="center">
 
-An Onchain App Template build with [OnchainKit](https://onchainkit.xyz), and ready to be deployed to Vercel.
+</div>
 
-Play with it live on https://onchain-app-template.vercel.app
+<!-- PROJECT INTRO -->
 
-Have fun! ⛵️
+<!-- Notas:
 
-<br />
+No olvidar conectar los repos o folders
+No olvidar subir el link de la landing para test 
+No olvidar subir el link del demo 
 
-## Setup
+ -->
 
-To ensure all components work seamlessly, set the following environment variables in your `.env` file using `.env.local.example` as a reference.
+<!-- TABLE OF CONTENTS -->
 
-You can find the API key on the [Coinbase Developer Portal's OnchainKit page](https://portal.cdp.coinbase.com/products/onchainkit). If you don't have an account, you will need to create one. 
+# Table of Contents 
 
-You can find your Wallet Connector project ID at [Wallet Connect](https://cloud.walletconnect.com).
-
-```sh
-# See https://portal.cdp.coinbase.com/products/onchainkit
-NEXT_PUBLIC_CDP_API_KEY="GET_FROM_COINBASE_DEVELOPER_PLATFORM"
-
-# See https://cloud.walletconnect.com
-NEXT_PUBLIC_WC_PROJECT_ID="GET_FROM_WALLET_CONNECT"
-```
-<br />
-
-## Locally run
-
-```sh
-# Install bun in case you don't have it
-curl -fsSL https://bun.sh/install | bash
-
-# Install packages
-bun i
-
-# Run Next app
-bun run dev
-```
-<br />
-
-## Resources
-
-- [OnchainKit documentation](https://onchainkit.xyz)
-- We use the [OnchainKit Early Adopter](https://github.com/neodaoist/onchainkit-early-adopter) contract written by neodaoist [[X]](https://x.com/neodaoist)
+1. [About the Project](#about-the-project)
+2. [The Problem Supply Cycle Solves](#the-problem-supply-cycle-solves)
+3. [Challenges We Ran Into](#challenges-we-ran-into)
+4. [Demo](#demo)
+5. [Built With](#built-with)
+6. [Team](#team)
+7. [Acknowledgments](#acknowledgments)
 
 <br />
 
-## License
+<!-- ABOUT THE PROJECT -->
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# About The Project
 
-## Need more help?
+<br />
 
-If you have any questions or need help, feel free to reach out to us on [Discord](https://discord.gg/8gW3h6w5) 
-or open a [Github issue](https://github.com/coinbase/onchainkit/issues) or DMs us 
-on X at [@onchainkit](https://x.com/onchainkit), [@zizzamia](https://x.com/zizzamia), [@fkpxls](https://x.com/fkpxls).
+**Supply Cycle** is a software that contains a comprehensive toolkit that guarantees transparency, trust, and traceability for supply chain operations focused on NGOs and companies.
+
+![5](https://github.com/user-attachments/assets/283376cb-ce27-484b-bc59-d437e1cb6dbb)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# The Problem Supply Cycle Solves
+
+We know how complicated it is to verify and secure all the processes behind the supply chain regarding funds and donations to confirm that whatever you sent actually got to the place you meant to send it. This situation also applies to companies that work day by day towards their traceability and reputation.
+
+**Supply Cycle** eliminates every uncertainty around these transactions by making them 100% transparent and traceable for both our donors and beneficiaries through smart contracts, attestations, and a mechanism to reward actors in the ecosystem that collaborate efficiently, enhancing our reputation system.
+
+Companies will also benefit from this service in different areas at any time.
+
+![6](https://github.com/user-attachments/assets/25d0a4f7-077b-4423-a4d7-9f91d066a09f)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Challenges We Ran Into
+
+The main challenge we faced was to successfully activate our smart contracts while including attestations and developing live delivery tracking through QR codes for every stakeholder involved in the process. Additionally, we aimed to follow a simple user design for our web development that effectively communicates our main product.
+
+![3](https://github.com/user-attachments/assets/e9d39a1d-e156-419b-ba73-654a91083b46)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Demo
+
+<a href="https://www.youtube.com/watch?v=KPKQjvKQ5ik" target="_blank">
+  <img src="https://img.youtube.com/vi/KPKQjvKQ5ik/0.jpg" alt="Demo Video" width="800" height="450">
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# How it Works
+
+Our app starts at the donation center, where goods are received and logged into the blockchain. This ensures that every item is accounted for from the very beginning, providing a transparent record of all donations.
+Delivery Bus
+
+As goods are transported, our app tracks their movement in real-time. Delivery personnel can easily update the status of shipments, ensuring that all stakeholders have up-to-date information on the location and condition of the goods.
+Delivery Bus
+Distribution Center
+Distribution Center
+
+At distribution centers, our app facilitates efficient inventory management and allocation of resources. Each transaction is recorded on the blockchain, creating an immutable record of how goods are distributed.
+Aid Recipients
+
+Finally, our app tracks the delivery of aid to recipients. This last step completes the chain of custody, providing a full picture of how donations are used and ensuring that they reach those in need.
+
+![Camino](https://github.com/user-attachments/assets/92e010a0-905e-429c-8c2c-e9c1db21f285)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Built With
+
+Supply Cycle is proudly supported by the following sponsors:
+
+**Frontend**
+- Next.Js
+- React
+- TailwindCss
+- AM Charts
+- HardHat
+- Ethers.Js
+- Open Zeppelin
+- JavaScript
+- TypeScript
+- Solidity
+- Based LATAM México
+
+**Tool Development**
+- Transparency
+- Traceability
+- Accountability
+- Data provider: NASA’s EONET.
+
+These powerful partners have helped us create a seamless user experience and ensure the scalability and reliability of our project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
