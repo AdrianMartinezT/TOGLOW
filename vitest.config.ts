@@ -2,8 +2,8 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   test: {
-    coverage: {
-      provider: 'istanbul', // O 'v8', si prefieres usar v8 como proveedor de cobertura
+    coverage: process.env.NODE_ENV === 'production' ? false : {
+      provider: 'istanbul',
       exclude: [
         '**/*.js',
         '**/*.ts',
