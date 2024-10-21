@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 export default defineConfig({
   test: {
     coverage: {
-      provider: 'istanbul', // Proveedor de cobertura necesario
+      provider: 'istanbul', // Añadimos el proveedor de cobertura necesario
       exclude: [
         '**.js',
         '**.ts',
