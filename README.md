@@ -39,13 +39,13 @@ No olvidar subir el link del demo
 
 **TOGLOW** A professional contribution platform that allows women to showcase their achievements in a transparent and decentralized manner while receiving tokens for their contributions. It introduces the first tool aimed at shifting the paradigm in how we understand work, promoting equity and access to global opportunities, thus impacting the digital divide.
 
-![5](https://github.com/user-attachments/assets/283376cb-ce27-484b-bc59-d437e1cb6dbb)
+![SkillBloom-2](https://github.com/user-attachments/assets/d008da04-f8d6-44be-9e60-46301d5dc2f9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# The Problem Supply Cycle Solves
+# The Problem TOGLOW Solves
 
-We know how complicated it is to verify and secure all the processes behind the supply chain regarding funds and donations to confirm that whatever you sent actually got to the place you meant to send it. This situation also applies to companies that work day by day towards their traceability and reputation.
+With the TOGLOW platform, we reduce the gender gap that currently exists in Latin America by introducing a new work model that aligns with the demand in digital media and benefits people who work remotely on projects of any kind
 
 **Supply Cycle** eliminates every uncertainty around these transactions by making them 100% transparent and traceable for both our donors and beneficiaries through smart contracts, attestations, and a mechanism to reward actors in the ecosystem that collaborate efficiently, enhancing our reputation system.
 
