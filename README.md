@@ -1,5 +1,5 @@
 # TOGLOW
-![TOGLOW](https://github.com/user-attachments/assets/4cd4b83e-bad7-4e3a-95c5-3afda8abb201)
+![21](https://github.com/user-attachments/assets/edb9f0e5-8170-478d-9dc0-98d26ac34804)
 
 <a name="readme-top"></a>
 
@@ -39,7 +39,7 @@ No olvidar subir el link del demo
 
 **TOGLOW** A professional contribution platform that allows women to showcase their achievements in a transparent and decentralized manner while receiving tokens for their contributions. It introduces the first tool aimed at shifting the paradigm in how we understand work, promoting equity and access to global opportunities, thus impacting the digital divide.
 
-![SkillBloom-2](https://github.com/user-attachments/assets/d008da04-f8d6-44be-9e60-46301d5dc2f9)
+![20](https://github.com/user-attachments/assets/09245b42-2275-40a1-9138-374ddbb56ff4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
