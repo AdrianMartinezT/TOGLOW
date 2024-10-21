@@ -1,5 +1,6 @@
 # TOGLOW
-![21](https://github.com/user-attachments/assets/edb9f0e5-8170-478d-9dc0-98d26ac34804)
+![20](https://github.com/user-attachments/assets/dae1ecba-0182-4bef-ad23-4c5b667a321e)
+
 
 <a name="readme-top"></a>
 
@@ -39,7 +40,7 @@ No olvidar subir el link del demo
 
 **TOGLOW** A professional contribution platform that allows women to showcase their achievements in a transparent and decentralized manner while receiving tokens for their contributions. It introduces the first tool aimed at shifting the paradigm in how we understand work, promoting equity and access to global opportunities, thus impacting the digital divide.
 
-![20](https://github.com/user-attachments/assets/09245b42-2275-40a1-9138-374ddbb56ff4)
+![21](https://github.com/user-attachments/assets/342e3ad4-e98c-4bb4-9dcd-6df45ae0cfe4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,11 +48,13 @@ No olvidar subir el link del demo
 
 With the TOGLOW platform, we reduce the gender gap that currently exists in Latin America by introducing a new work model that aligns with the demand in digital media and benefits people who work remotely on projects of any kind
 
-**Supply Cycle** eliminates every uncertainty around these transactions by making them 100% transparent and traceable for both our donors and beneficiaries through smart contracts, attestations, and a mechanism to reward actors in the ecosystem that collaborate efficiently, enhancing our reputation system.
+**TOGLOW** Focused Solutions:
 
-Companies will also benefit from this service in different areas at any time.
+Elimination of Bias: By using blockchain, contributions are recorded immutably, returning the value of the contribution to the individual.
+Global Opportunity Gateway: The platform acts as a gateway, highlighting individual contributions and connecting them with collaboration opportunities worldwide.
+Focus on Contributions, Not Titles: Similar to GitHub, where skills are demonstrated through collaboration and code, this platform allows women to shine through their contributions to projects, not just by their titles.
 
-![6](https://github.com/user-attachments/assets/25d0a4f7-077b-4423-a4d7-9f91d066a09f)
+![SkillBloom-2](https://github.com/user-attachments/assets/89cd9066-5a36-40b0-8286-24b67108c864)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
