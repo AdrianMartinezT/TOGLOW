@@ -55,9 +55,9 @@ ul {
   padding-inline-start: 0;
 }
 
-/* Asegurarse de que el contenedor ocupe todo el ancho de la pantalla */
+/* Asegurar de que el contenedor ocupe todo el ancho de la pantalla */
 #__next {
-  min-height: 100%; /* Cambiado a min-height para asegurar la altura completa */
+  min-height: 100%; 
   width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
 }
 
@@ -65,9 +65,9 @@ ul {
   color: #030712;
 }
 
-/* Se eliminó el max-width para permitir que los elementos se expandan */
+
 body > div {
-  height: auto; /* Asegúrate de que los elementos internos crezcan correctamente */
+  height: auto; 
   box-sizing: border-box;
 }
 
@@ -77,5 +77,5 @@ a {
 }
 
 .templateSection > div {
-  max-width: 100%; /* Asegura que los elementos no se limiten por el ancho */
+  max-width: 100%; 
 }

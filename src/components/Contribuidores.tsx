@@ -1,6 +1,6 @@
 import React from 'react';
-import imagenContribuidor from '../components/assets/1.jpg';  // Asegúrate de que la ruta sea correcta
-
+import Image from 'next/image'; 
+import imagenContribuidor from '../components/assets/1.jpg';  
 // Definimos la estructura del tipo de los contribuyentes
 interface Contribuidor {
   nombre: string;
@@ -27,11 +27,12 @@ const Contribuidores: React.FC = () => {
         {contribuyentes.map((contribuidor, index) => (
           <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
             <div className="bg-white shadow-md rounded-lg overflow-hidden text-center p-6">
-              <img
+              <Image
                 src={imagenContribuidor}
                 alt={contribuidor.nombre}
                 className="rounded-full mx-auto mb-4"
-                style={{ width: '100px', height: '100px' }}
+                width={100}
+                height={100}
               />
               <h3 className="text-lg font-semibold">{contribuidor.nombre}</h3>
               <p className="text-gray-500">{contribuidor.rol}</p>

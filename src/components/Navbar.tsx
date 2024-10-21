@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import SignupButton from 'src/components/SignupButton';
 import LoginButton from 'src/components/LoginButton';
-// Importamos los íconos de FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';  
 
 const NavbarComponent: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +16,14 @@ const NavbarComponent: React.FC = () => {
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          {/* Logo y Nombre del proyecto */}
+          {/* Logo  */}
           <div className="flex-shrink-0 flex items-center">
-            <img
+            <Image
               className="h-8 w-8"
-              src="/public/2.png" 
+              src="/2.png"  
               alt="Logo"
+              width={150}  
+              height={150} 
             />
             <span className="ml-3 text-xl font-semibold">TOGLOW</span>
           </div>
