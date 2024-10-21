@@ -19,7 +19,7 @@ const NavbarComponent: React.FC = () => {
           {/* Logo  */}
           <div className="flex-shrink-0 flex items-center">
             <Image
-              className="h-8 w-8"
+              className="h-10 w-10"
               src="/2.png"  
               alt="Logo"
               width={250}  
