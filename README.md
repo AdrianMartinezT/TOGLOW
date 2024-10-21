@@ -1,4 +1,6 @@
-<p align="center">
+
+<p align="cent![WhatsApp Image 2024-10-20 at 11 51 41 PM](https://github.com/user-attachments/assets/01b35458-9251-4b91-852d-e92f5fc747d3)
+er">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png">
     <img alt="OnchainKit logo vibes" src="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png" width="auto">
