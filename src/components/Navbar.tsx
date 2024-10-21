@@ -22,8 +22,8 @@ const NavbarComponent: React.FC = () => {
               className="h-8 w-8"
               src="/2.png"  
               alt="Logo"
-              width={150}  
-              height={150} 
+              width={250}  
+              height={250} 
             />
             <span className="ml-3 text-xl font-semibold">TOGLOW</span>
           </div>

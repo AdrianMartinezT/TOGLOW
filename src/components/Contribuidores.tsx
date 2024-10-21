@@ -1,6 +1,7 @@
 import React from 'react';
-import Image from 'next/image'; 
-import imagenContribuidor from '../components/assets/1.jpg';  
+import Image from 'next/image';  // Importamos el componente Image de Next.js
+import imagenContribuidor from '../components/assets/1.jpg';  // Asegúrate de que la ruta sea correcta
+
 // Definimos la estructura del tipo de los contribuyentes
 interface Contribuidor {
   nombre: string;
@@ -31,8 +32,8 @@ const Contribuidores: React.FC = () => {
                 src={imagenContribuidor}
                 alt={contribuidor.nombre}
                 className="rounded-full mx-auto mb-4"
-                width={100}
-                height={100}
+                width={100}  // Ancho de la imagen
+                height={100} // Alto de la imagen
               />
               <h3 className="text-lg font-semibold">{contribuidor.nombre}</h3>
               <p className="text-gray-500">{contribuidor.rol}</p>
