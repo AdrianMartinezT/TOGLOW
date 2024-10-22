@@ -60,10 +60,9 @@ Focus on Contributions, Not Titles: Similar to GitHub, where skills are demonstr
 
 # Challenges We Ran Into
 
-The main challenge we faced was to successfully activate our smart contracts while including attestations and developing live delivery tracking through QR codes for every stakeholder involved in the process. Additionally, we aimed to follow a simple user design for our web development that effectively communicates our main product.
+Our main challenge was designing the product in a way that it functions as a massive search engine for contributions and contributors within a single network. We had to find two developers to join the team on a tight schedule to make this possible. The platform needed to be both persuasive and easy to use.
 
-![3](https://github.com/user-attachments/assets/e9d39a1d-e156-419b-ba73-654a91083b46)
-
+![TOGLOW](https://github.com/user-attachments/assets/ec210896-c88e-4802-9002-68781c5f01d4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,45 +76,17 @@ The main challenge we faced was to successfully activate our smart contracts whi
 
 # How it Works
 
-Our app starts at the donation center, where goods are received and logged into the blockchain. This ensures that every item is accounted for from the very beginning, providing a transparent record of all donations.
-Delivery Bus
+Join TOGLOW as an independent contributor to find a project where you can make a contribution. Access your personalized dashboard to enter all the certifications, activities, and projects you’ve collaborated on. You can also explore our contribution gateway to select the opportunity that best matches your interests for contribution.
 
-As goods are transported, our app tracks their movement in real-time. Delivery personnel can easily update the status of shipments, ensuring that all stakeholders have up-to-date information on the location and condition of the goods.
-Delivery Bus
-Distribution Center
-Distribution Center
-
-At distribution centers, our app facilitates efficient inventory management and allocation of resources. Each transaction is recorded on the blockchain, creating an immutable record of how goods are distributed.
-Aid Recipients
-
-Finally, our app tracks the delivery of aid to recipients. This last step completes the chain of custody, providing a full picture of how donations are used and ensuring that they reach those in need.
-
-![Camino](https://github.com/user-attachments/assets/92e010a0-905e-429c-8c2c-e9c1db21f285)
+![WhatsApp Image 2024-10-20 at 11 51 41 PM (2)](https://github.com/user-attachments/assets/3fc279eb-e588-4d28-8506-02e68da75308)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Built With
 
-Supply Cycle is proudly supported by the following sponsors:
-
-**Frontend**
-- Next.Js
 - React
-- TailwindCss
-- AM Charts
-- HardHat
-- Ethers.Js
-- Open Zeppelin
-- JavaScript
-- TypeScript
-- Solidity
-- Based LATAM México
-
-**Tool Development**
-- Transparency
-- Traceability
-- Accountability
-- Data provider: NASA’s EONET.
+- Tailwing 
+- Base
 
 These powerful partners have helped us create a seamless user experience and ensure the scalability and reliability of our project.
 
