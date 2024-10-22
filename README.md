@@ -23,12 +23,10 @@ No olvidar subir el link del demo
 # Table of Contents 
 
 1. [About the Project](#about-the-project)
-2. [The Problem Supply Cycle Solves](#the-problem-supply-cycle-solves)
+2. [The Problem TOGLOW Solves](#the-problem-toglow-solves)
 3. [Challenges We Ran Into](#challenges-we-ran-into)
 4. [Demo](#demo)
 5. [Built With](#built-with)
-6. [Team](#team)
-7. [Acknowledgments](#acknowledgments)
 
 <br />
 
