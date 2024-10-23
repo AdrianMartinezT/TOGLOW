@@ -1,15 +1,13 @@
 import React from 'react';
-import Image from 'next/image';  // Importamos el componente Image de Next.js
-import imagenContribuidor from '../components/assets/1.jpg';  // Asegúrate de que la ruta sea correcta
+import Image from 'next/image';  
+import imagenContribuidor from '../components/assets/1.jpg';  
 
-// Definimos la estructura del tipo de los contribuyentes
 interface Contribuidor {
   nombre: string;
   rol: string;
   contribuciones: number;
 }
 
-// Creamos una lista de contribuyentes
 const contribuyentes: Contribuidor[] = [
   { nombre: "Elba", rol: "P.M", contribuciones: 245 },
   { nombre: "Miriam", rol: "Mkt", contribuciones: 45 },
@@ -22,7 +20,7 @@ const contribuyentes: Contribuidor[] = [
 
 const Contribuidores: React.FC = () => {
   return (
-    <div className="contributors mt-10">
+    <div className="contributors mt-10 lg:mt-16"> {/* Ajuste del margen superior */}
       <h2 className="text-center text-2xl font-bold mb-6">Contribuidores</h2>
       <div className="flex flex-wrap justify-center">
         {contribuyentes.map((contribuidor, index) => (
@@ -32,8 +30,8 @@ const Contribuidores: React.FC = () => {
                 src={imagenContribuidor}
                 alt={contribuidor.nombre}
                 className="rounded-full mx-auto mb-4"
-                width={100}  // Ancho de la imagen
-                height={100} // Alto de la imagen
+                width={100}  
+                height={100} 
               />
               <h3 className="text-lg font-semibold">{contribuidor.nombre}</h3>
               <p className="text-gray-500">{contribuidor.rol}</p>

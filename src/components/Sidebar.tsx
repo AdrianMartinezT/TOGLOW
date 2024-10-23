@@ -1,11 +1,10 @@
 import React from 'react';
 
-// Definimos el tipo de las propiedades, si en el futuro se requieren propiedades adicionales
 interface SidebarProps {}
 
 const Sidebar: React.FC<SidebarProps> = () => {
   return (
-    <div className="p-4 bg-gray-100 rounded-lg w-full">
+    <div className="p-4 bg-gray-100 rounded-lg w-full mt-16 lg:mt-20"> {/* Margen superior ajustado */}
       {/* Botón de Contribuidor */}
       <button className="bg-gray-800 text-white w-full mb-4 py-3 rounded-lg">
         Contribuidor
